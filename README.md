@@ -42,7 +42,7 @@
 - 服务管理（启动 / 停止 / 重启）
 - 自定义脚本执行
 ### 目录结构
-plaintext
+```bash
 opman/
 ├── src/
 │   ├── main/                  # 主进程代码 (Node.js)
@@ -68,6 +68,7 @@ opman/
 ├── electron-builder.json      # 打包配置
 ├── package.json               # 项目依赖
 └── tsconfig.json              # TypeScript 配置
+```
 ### 开发流程
 #### 1. 初始化项目
 ```bash 
